@@ -8,7 +8,7 @@ function DIV(){
 };
 
 async function retrieveWeather(loc){
-  let result = await fetch("http://api.weatherapi.com/v1/current.json?key=1781a8906e6e4a4cbbb125603230611&q=" + loc, {mode : "cors"});
+  let result = await fetch("https://api.weatherapi.com/v1/current.json?key=1781a8906e6e4a4cbbb125603230611&q=" + loc, {mode : "cors"});
   let finalResult = await result.json();
 
   console.log(finalResult);
