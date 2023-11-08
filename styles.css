@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+
+  font-family: monospace;
+  font-size: large;
+}
+
+.body{
+  background-color: black;
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  background-color: yellow;
+  min-height: 400px;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
